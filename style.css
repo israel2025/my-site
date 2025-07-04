@@ -23,15 +23,20 @@ body, html {
 }
 
 form {
+    display: block;
     background-color: black;
     padding: 10px;
     width: 500px;
-    height: 100vh;
+    height: 680px;
+    border-radius: 10px;
     
     transform: translate(850px, -650px);
 }
 
 .ja {
-    transform: translateY(300px);
-    width: 80%;
+    transform: translateX(50px) translateY(300px);
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
 }
