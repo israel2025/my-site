@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <main>
-        <img src="OrgCoral_Ofc-01_Concept-06-1.webp" alt="abetura">
+        <img src="OrgCoral_Ofc-01_Concept-06-1.webp" class="imgg" alt="abetura">
     </main>
-    <footer>
-        <p class="f">Feito por:</p>
-        <p class="f">Israel</p>
-    </footer>
+    <form action="guard.js" method="post">
+        <div class="forma">
+        <input type="text" name="nome" id="t.nome" placeholder="Nome" class="ja" required>
+        <br><br>
+        <input type="text" name="senha" id="t.senha" placeholder="Senha" class="ja" required>
+        <br><br>
+        <input type="button" value="Cadastre-se" class="ja">
+        </div>
+    </form>
 </body>
 </html>

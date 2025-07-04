@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media (max-width: 550px) {
+    
+    body {
+        background-color: lightgray;
+    }
+
+    .imgg{
+        display: none;
+    }
+
+    form {
+        transform: translate(70px,  100px);
+        width: 350px;
+        height: 500px;
+        border-radius: 10px, 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  }
+
+  .ja {
+    transform: none;
+    margin: 10px;
+  }
+
+  .forma {
+    display: block;
+    margin-bottom: 10px; /* espaçamento entre eles */
+  }
+}
