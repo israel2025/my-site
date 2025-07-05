@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     
     body {
       background-color: lightgray;
@@ -18,7 +18,7 @@
         transform: translate(-50%, -50%);
         width: 350px;
         height: 500px;
-        border-radius: 10px, 10px;
+        border-radius: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -34,4 +34,12 @@
     display: block;
     margin-bottom: 10px; /* espaçamento entre eles */
   }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  
+}
+
+@media (min-width: 1441) {
+
 }

@@ -7,12 +7,12 @@ body, html {
 
 @keyframes mover {
     0% {transform: translateX(-600px); }
-    100% {transform: translateX(0px); }
+    100% {transform: translateX(-20px); }
 }
 
 .imgg {
-    height: 95vh;
-    width: 50vw;
+    height: 600px;
+    width: 800px;
     animation-name: mover;
     animation-duration: 1s;
     animation-delay: 0.2s;
@@ -27,7 +27,7 @@ form {
     background-color: black;
     padding: 10px;
     width: 500px;
-    height: 680px;
+    height: 700px;
     border-radius: 10px;
     
     transform: translate(850px, -650px);
@@ -39,4 +39,27 @@ form {
     width: 400px;
     border-radius: 10px;
     border: none;
+    padding: 5px;
+}
+
+#bu {
+    background-color: rgb(1, 179, 1);
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#bu:hover {
+    transition-duration: .2s;
+    color: white;
+    background-color: rgb(0, 84, 0);
+    box-shadow: 0px 0px 10px white;
+}
+
+#t.nome:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+#info {
+    color: white;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
 }
