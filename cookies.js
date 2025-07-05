@@ -1,4 +1,4 @@
-const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbyCwesq0scEQHnfPcmUm2RaDADgBiM6ete9TR2NPTRSIVI3K7JN20xxTro6r65Sgn1M/exec";
+const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbwqNfkecBeWszZCRrsEH_CIShpWpvI5jYA7wSj-4GW-fyHa-Jcqj1t8OaPjSvI-RlrG/exec";
 
 window.onload = function () {
   //if (!localStorage.getItem("cookiesDecidido")) {
