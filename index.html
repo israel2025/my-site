@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My site</title>
+    <title>Orbita</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="query.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <main>
-        <img src="OrgCoral_Ofc-01_Concept-06-1.webp" class="imgg" alt="abetura">
+        <img src="texto convicente.png" class="imgg" alt="abetura">
     </main>
-    <form action="guard.js" method="post">
+    <script src="confg.js"></script>
+    <form action="" method="post">
         <div class="forma">
         <input type="text" name="nome" id="t.nome" placeholder="Usuário" class="ja" required>
         <br><br>
@@ -21,13 +22,14 @@
         <input type="button" value="Cadastre-se" class="ja" id="bu">
         </div>
     </form>
-    
-    <div id="avisoCookies" class="cookie-box">
-        
-  <p>Este site usa cookies para melhorar sua experiência.</p>
-  <button onclick="aceitarCookies()" class="bu">Aceitar</button>
-  <button onclick="ignorarCookies()" class="bu">Ignorar</button>
-</div>
-<script src="cookies.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H63JFZ30QB"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H63JFZ30QB');
+    </script>
 </body>
 </html>
