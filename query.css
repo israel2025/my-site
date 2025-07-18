@@ -25,14 +25,24 @@
   }
 
   .ja {
-    transform: none;
+    transform: translateY(50px) translateX(-50px);
     margin: 10px;
     width: 250px;
   }
 
   .forma {
     display: block;
-    margin-bottom: 10px; /* espaçamento entre eles */
+    margin-bottom: 10px;
+  }
+
+  #mid {
+    transform: translateX(130px) translateY(-100px);
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-align: left;
+    padding: 5px;
+    width: 90%;
+    word-break: break-all;
   }
 }
 
@@ -41,5 +51,7 @@
 }
 
 @media (min-width: 1441) {
-
+  #mid {
+    white-space: nowrap;
+  }
 }
