@@ -5,21 +5,13 @@ body, html {
     overflow: hidden;
 }
 
-@keyframes mover {
-    0% {transform: translateX(-600px); }
-    100% {transform: translateX(-20px); }
-}
-
 .imgg {
-    height: 600px;
-    width: 800px;
-    animation-name: mover;
-    animation-duration: 1s;
-    animation-delay: 0.2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
-    border-radius: 40%;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+
+    transform: translateY(50px) translateX(410px);
 }
 
 form {
@@ -29,12 +21,14 @@ form {
     width: 500px;
     height: 700px;
     border-radius: 10px;
+    position: relative;
+    z-index: 1;
     
-    transform: translate(850px, -650px);
+    transform: translateY(0px) translateX(400px);
 }
 
 .ja {
-    transform: translateX(50px) translateY(200px);
+    transform: translateX(50px) translateY(250px);
     height: 50px;
     width: 400px;
     border-radius: 10px;
@@ -61,23 +55,6 @@ form {
     box-shadow: 0px 0px 10px white;
 }
 
-#info {
-    color: white;
-    text-shadow: 0px 0px 10px rgb(0, 0, 0);
-}
-
-.cookie-box {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #222;
-  color: white;
-  padding: 15px;
-  text-align: center;
-  display: none;
-}
-
 .bu {
     background-color: rgb(255, 121, 73);
     border: none;
@@ -95,11 +72,4 @@ form {
     transition-duration: .5s;
     text-shadow: 0px 0px 10px orange;
     box-shadow: 0px 0px 10px orange;
-}
-
-#mid {
-    color: white;
-    transform: translateY(200px) translateX(10px);
-    font-size: 1.5em;
-    text-align: center;
 }
