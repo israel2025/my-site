@@ -8,7 +8,10 @@
     }
 
     .imgg{
-        display: none;
+        width: 400px;
+        height: 200px;
+
+        transform: translateY(86px) translateX(100px);
     }
 
     form {
@@ -25,7 +28,7 @@
   }
 
   .ja {
-    transform: translateY(50px) translateX(-50px);
+    transform: translateY(100px) translateX(5px);
     margin: 10px;
     width: 250px;
   }
