@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* celular */
+@media (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to bottom, darkcyan, black);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+  }
+
+  #form {
+    width: 300px;
+    height: 500px;
+  }
+
+  #email1 {
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 50px;
+    transform: translateX(20px) translateY(100px);
+}
+
+#senha1 {
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 50px;
+    transform: translateX(20px) translateY(100px);
+}
+
+#butao {
+  width: 255px;
+}
+
+  #text {
+    font-size: 1.4em;
+  }
+}
+
+/* tablet -------------------------------------------------------------------------------*/
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    background-image: linear-gradient(to bottom, darkcyan, black);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+  }
+
+    #form {
+    width: 300px;
+    height: 500px;
+  }
+
+  #email1 {
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 50px;
+    transform: translateX(20px) translateY(100px);
+}
+
+#senha1 {
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 50px;
+    transform: translateX(20px) translateY(100px);
+}
+
+#butao {
+  width: 255px;
+}
+
+  #text {
+    font-size: 1.4em;
+  }
+}
+
+/* computador --------------------------------------------------------------------------*/
+@media (min-width: 1025px) {
+  body {
+    background-image: linear-gradient(to bottom, darkcyan, black);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+  }
+}
