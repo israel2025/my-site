@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    height: 100%;
+    margin-top: 30px;
+    background-color: rgb(255, 219, 171);
+}
+
+#form {
+    background-image: linear-gradient(to bottom, black, rgb(0, 118, 165));
+    margin: auto;
+    padding: 10px;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#email1 {
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    width: 400px;
+    height: 50px;
+    transform: translateX(20px) translateY(100px);
+}
+
+#senha1 {
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    width: 400px;
+    height: 50px;
+    transform: translateX(20px) translateY(100px);
+}
+
+#butao {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(0, 118, 165);
+    width: 405px;
+    height: 50px;
+    transform: translateX(20px) translateY(105px);
+}
+
+#butao:hover {
+    background-color: rgb(0, 58, 97);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bolder;
+}
+
+#text {
+    color: white;
+    text-align: center;
+    transform: translateY(20px);
+}
+
+#direcionamento {
+    color: white;
+    text-align: center;
+    transform: translateY(100px);
+}
+
+#link_log {
+    font-size: 1em;
+}
